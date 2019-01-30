@@ -33,8 +33,8 @@ def main(addr,filename):
 
 if __name__ == '__main__':
     print("updata is running")
-    addr = ('176.136.4.17',6671)
-    filename= ['main.py','main_menu.py','login.py','myview.py']
+    addr = ('176.136.4.36',6671)
+    filename= ['main.py','main_menu.py','login.py','myview.py','1.py']
     for i in filename:
         sleep(0.5)
         main(addr,i)
